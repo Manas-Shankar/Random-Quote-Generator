@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+div {
+  position: relative;
+  z-index: 2;
+}
+body {
+  background-color: #55552b;
+  color: #55552b;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.footer {
+  width: 500px;
+  text-align: center;
+  display: block;
+  margin: 15px auto 30px auto;
+  font-size: 1.3em;
+  color: #fff;
+}
+.footer a {
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+}
+.footer a:hover {
+  font-weight: 500;
+  opacity: 0.7;
+  text-decoration: underline;
+}
+#quote-box {
+  border-radius: 5px;
+  position: relative;
+  margin: 8% auto auto auto;
+  width: 500px;
+  padding: 50px 40px;
+  padding-left: 50px;
+  display: table;
+  background-color: #fff;
+}
+#quote-box .quote-text {
+  text-align: center;
+  width: 500px;
+  height: auto;
+  clear: both;
+  font-weight: 500;
+  font-size: 1.9em;
+}
+#quote-box .quote-text i {
+  font-size: 1.1em;
+  margin-right: 0.7em;
+  margin-left: 0.5em;
+}
+#quote-box .quote-author {
+  width: 500px;
+  height: auto;
+  clear: both;
+  padding: 20px;
+  font-size: 1.4em;
+  text-align: right;
+}
+#quote-box .buttons {
+  width: 500px;
+  margin: auto;
+  display: block;
+}
+#quote-box .buttons .button {
+  height: 45px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #55552b;
+  outline: none;
+  font-size: 0.95em;
+  padding: 8px 18px 8px 18px;
+  margin-top: 40px;
+  opacity: 1;
+  cursor: pointer;
+}
+#quote-box .buttons .button:hover {
+  opacity: 0.9;
+  background-color: #333;
+}
+#quote-box .buttons .button#tweet-quote, #quote-box .buttons .button#tumblr-quote {
+  float: left;
+  padding: 10px;
+  padding-top: 13px;
+  text-align: center;
+  font-size: 1.4em;
+  margin-right: 10px;
+  height: 30px;
+  width: 35px;
+}
+#quote-box .buttons .button#new-quote {
+  float: right;
+  height: 50px;
+  font-weight: 500;
+}
